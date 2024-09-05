@@ -1,0 +1,109 @@
+body {
+    padding-top: 20px;
+}
+
+#accounts-container, #filters {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#price-filter {
+    width: 300px;
+    margin: 0 auto;
+}
+
+.account {
+    display: inline-block;
+    margin: 0 auto;
+    width: 21%;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    background-color: #eee;
+}
+
+.general-filter {
+
+}
+
+input[type="radio"][name="email_access"] {
+    display: none;
+}
+
+input[type="radio"][name="email_access"]:checked + label ,
+input[type="radio"][name="email_access"]:not(:checked) + label {
+    margin-left: -5px;
+    display: inline-block;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 4px;
+    width: 100px;
+    font-size: 14px;
+    border: 1px solid #19A5D4;
+}
+
+input[type="radio"][name="email_access"]:checked + label {
+    /* background-color: #46b7dc; */
+    background-color: rgba(25,165,212, 0.4);
+    font-weight: bold;
+    transition: all .3s ease;
+}
+
+input[type="radio"][name="email_access"]:checked + label img {
+    opacity: 1;
+    transition: all .3s ease;
+}
+input[type="radio"][name="email_access"]:not(:checked) + label img {
+    opacity: 0;
+    transition: all .3s ease;
+}
+
+input[type="checkbox"][class="platform_type_checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"].platform_type_checkbox:checked + label,
+input[type="checkbox"].platform_type_checkbox:not(checked) + label {
+    margin-left: -1px;
+    display: inline-block;
+    cursor: pointer;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    width: 105px;
+    font-size: 14px;
+    border: 1px solid #19A5D4;
+}
+
+input[type="checkbox"].platform_type_checkbox:checked + label {
+    border-color: #19A5D4;
+}
+
+input[type="checkbox"].platform_type_checkbox:not(checked) + label {
+    border-color: lightgrey;
+}
+
+input[type="checkbox"].platform_type_checkbox:checked + label img,
+input[type="checkbox"].platform_type_checkbox:not(checked) + label img {
+    width: 100%;
+}
+
+input[type="checkbox"].platform_type_checkbox:checked + label img.platform_checked {
+    position: absolute;
+    width: 9px;
+    margin-top: -46px;
+    margin-left: 88px;
+    display: block;
+    opacity: 1;
+    transition: all .3s ease;
+}
+
+input[type="checkbox"].platform_type_checkbox:not(checked) + label img.platform_checked {
+    position: absolute;
+    width: 9px;
+    margin-top: -23px;
+    margin-left: 88px;
+    display: block;
+    opacity: 0;
+    transition: all .3s ease;
+}

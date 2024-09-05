@@ -1,0 +1,226 @@
+.warning-box {
+    text-align: center;
+    overflow: hidden;
+    margin-top: -38px;
+}
+
+.warning-box img {
+    width: 60%;
+    margin-top: -200px;
+    margin-bottom: -80px;
+}
+
+.warning-box .background-box {
+    background-color: #2b2b2b;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+    margin: 0 -20px -20px;
+    padding: 50px 0;
+}
+
+.warning-box .background-box span {
+    color: #dbab00;
+}
+
+input[type="radio"].custom_radio {
+    display: none;
+}
+
+.form-check-label {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.form-check p {
+    font-size: 14px;
+    font-weight: 400;
+    margin: 20px auto;
+}
+
+.clearfix {
+    margin-top: -20px;
+}
+
+.cart-button {
+    text-align: right;
+    margin-top: -5px;
+}
+
+.warning-message {
+    font-size: 10px;
+    margin: -10px auto;
+}
+
+input[type="radio"].custom_radio:checked + label ,
+input[type="radio"].custom_radio:not(:checked) + label {
+    margin-left: -1px;
+    display: inline-block;
+    cursor: pointer;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    width: 105px;
+    font-size: 14px;
+    border: 1px solid #19A5D4;
+}
+
+input[type="radio"].custom_radio:checked + label {
+    border-color: #19A5D4;
+}
+
+input[type="radio"].custom_radio:not(:checked) + label {
+    border-color: lightgrey;
+}
+
+input[type="radio"].custom_radio:checked + label img,
+input[type="radio"].custom_radio:not(:checked) + label img {
+    width: 100%;
+}
+
+input[type="radio"].custom_radio:checked + label img.platform_checked {
+    position: absolute;
+    width: 9px;
+    margin-top: -46px;
+    margin-left: 88px;
+    display: block;
+    opacity: 1;
+    transition: all .3s ease;
+}
+
+input[type="radio"].custom_radio:not(:checked) + label img.platform_checked {
+    position: absolute;
+    width: 9px;
+    margin-top: -23px;
+    margin-left: 88px;
+    display: block;
+    opacity: 0;
+    transition: all .3s ease;
+}
+
+input[type="radio"].custom_radio_payment {
+    display: none;
+}
+
+input[type="radio"].custom_radio_payment:checked + label ,
+input[type="radio"].custom_radio_payment:not(:checked) + label {
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    display: inline-block;
+    border: 1px solid #19A5D4;
+    width: 590px;
+    height: 65px;
+}
+
+[type="radio"].custom_radio_payment:checked + label:before,
+[type="radio"].custom_radio_payment:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 24px;
+    width: 18px;
+    height: 18px;
+    border-radius: 100%;
+    background: #fff;
+}
+
+[type="radio"].custom_radio_payment:checked + label:before {
+    border: 2px solid #19A5D4;
+}
+
+[type="radio"].custom_radio_payment:not(:checked) + label:before {
+    border: 2px solid #ddd;
+}
+
+[type="radio"].custom_radio_payment:checked + label:after,
+[type="radio"].custom_radio_payment:not(:checked) + label:after {
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: #19A5D4;
+    position: absolute;
+    left: 14px;
+    top: 28px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+[type="radio"].custom_radio_payment:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"].custom_radio_payment:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+input[type="radio"].custom_radio_payment:checked + label {
+    border-color: #19A5D4;
+}
+
+input[type="radio"].custom_radio_payment:not(:checked) + label {
+    border-color: lightgrey;
+}
+
+input[type="radio"].custom_radio_payment:checked + label img,
+input[type="radio"].custom_radio_payment:not(:checked) + label img {
+    width: 45%;
+    margin-top: 15px;
+}
+
+.cart-tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.apple-pay-check {
+    display: none;
+}
+
+.cart-tooltip .cart-tooltiptext {
+    visibility: hidden;
+    opacity: 0;
+    width: 320px;
+    background-color: #19A5D4;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    border-radius: 6px;
+    position: absolute;
+    bottom: 120%;
+    left: 50%;
+    padding: 10px 10px;
+    margin-left: -160px;
+    z-index: 1;
+    transition: 0.5s ease;
+}
+
+.cart-tooltip .cart-tooltiptext a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.cart-tooltip .cart-tooltiptext::after {
+  content: " ";
+  position: absolute;
+  top: 100%; /* At the bottom of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #19A5D4 transparent transparent transparent;
+}
+
+.cart-tooltip:hover {
+    color: #19A5D4;
+}
+
+.cart-tooltip:hover .cart-tooltiptext {
+    opacity: 1;
+    visibility: visible;
+}

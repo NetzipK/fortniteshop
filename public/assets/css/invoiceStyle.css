@@ -1,0 +1,25 @@
+.code-border {
+    border: 3px solid #af423f;
+    background-color: #d9534f;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.code-border .disclaimer {
+    text-align: left;
+    margin: 12px auto 10px 10px;
+}
+.code-border span {
+    margin: 3px auto;
+    font-size: 32px;
+    text-shadow: 2px 2px black;
+}
+
+.code-border p {
+    color: white;
+    margin: 0 auto;
+    margin-top: 20px;
+    font-size: 16px;
+}

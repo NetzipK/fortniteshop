@@ -1,0 +1,202 @@
+.custom-container {
+    width: 100%;
+    padding-right:15px;
+    padding-left:15px;
+    margin-right:auto;
+    margin-left:auto;
+}
+@media (min-width: 768px) {
+    .custom-container{
+        width: 900px;
+    }
+}
+
+@media (min-width: 992px) {
+    .custom-container{
+        width: 1120px;
+    }
+}
+
+@media (min-width: 1200px) {
+  .custom-container{
+    width: 1320px;
+  }
+}
+
+.col-sm-5-6 {
+    float: left;
+    position:relative;
+    min-height:1px;
+    padding-right:15px;
+    padding-left:15px;
+    width: 47%;
+}
+
+.account-container {
+    position: relative;
+}
+
+.account-level-stw {
+    position: absolute;
+    top: 0px;
+    left: 10%;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.account-vbucks-stw {
+    position: absolute;
+    top: 0px;
+    right: 11%;
+    color: white;
+    text-align: right;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.standard-edition {
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    color: #d6d6d6;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.deluxe-edition {
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    color: #19A5D4;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.super-deluxe-edition {
+    position: absolute;
+    line-height: 100%;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    color: #c6af11;
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.edition {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: #f7f7f7;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.account-campagne {
+    width: 250px;
+    position: absolute;
+    top: 73%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color: white;
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.account-level {
+    position: absolute;
+    top: 0px;
+    left: 15%;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.account-vbucks {
+    position: absolute;
+    top: 0px;
+    right: 10%;
+    color: white;
+    text-align: right;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.account-skins {
+    position: absolute;
+    top: 14%;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.account-pickaxes {
+    position: absolute;
+    top: 47.5%;
+    left: 32%;
+    transform: translate(-68%, 0);
+    text-align: center;
+}
+
+.account-gliders {
+    position: absolute;
+    top: 60%;
+    left: 32%;
+    transform: translate(-68%, 0);
+    text-align: center;
+}
+
+.account-backblings {
+    position: absolute;
+    top: 72.5%;
+    left: 32%;
+    transform: translate(-68%, 0);
+    text-align: center;
+}
+
+.account-dances {
+    position: absolute;
+    top: 85%;
+    left: 32%;
+    transform: translate(-68%, 0);
+    text-align: center;
+}
+
+.account-not-pve {
+    position: absolute;
+    top: 59%;
+    right: 14px;
+    color: #d41919;
+    text-align: right;
+    font-size: 12px;
+}
+
+.account-pve {
+    position: absolute;
+    top: 59%;
+    right: 11px;
+    text-align: right;
+    font-size: 12px;
+}
+
+.account-category-checked {
+    border: 2px solid #19A5D4;
+}
+
+.account-category-check {
+    position: absolute;
+    width: 8%;
+    left: 65px;
+    top: 4px;
+}

@@ -1,0 +1,129 @@
+.custom-container {
+    width: 100%;
+    padding-right:15px;
+    padding-left:15px;
+    margin-right:auto;
+    margin-left:auto;
+}
+@media (min-width: 768px) {
+    .custom-container{
+        width: 900px;
+    }
+}
+
+@media (min-width: 992px) {
+    .custom-container{
+        width: 1120px;
+    }
+}
+
+@media (min-width: 1200px) {
+  .custom-container{
+    width: 1320px;
+  }
+}
+
+.test-border {
+    border: 2px solid red;
+    /* clip-path: polygon(0 15%, 0 0, 100% 0, 100% 100%, 0 100%, 0 85%, 1% 85%, 1% 15%); */
+}
+
+.border-bottom {
+    border-bottom: 4px solid #19A5D4;
+}
+
+.account-details-container {
+    margin: 10px 15px;
+}
+
+.account-details-container hr {
+    margin: 10px -10px;
+    height: 2px;
+    background: #19A5D4;
+}
+
+.account-image {
+    margin: 59.5px 45px;
+}
+
+.account-title {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 3px;
+}
+
+.account-price label {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.account-price span {
+    font-size: 22px;
+    font-weight: 600;
+    color: #c84442;
+}
+
+.detail-name {
+    text-align: right;
+    max-width: 220px;
+    margin-left: -30px;
+}
+
+.detail-name label {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    margin-right: -15px;
+    padding: 0 0;
+}
+
+.col-sm-1 {
+    text-align: left;
+    max-width: 50px;
+}
+
+.col-sm-1 span {
+    font-weight: 500;
+    margin: 0;
+    padding: 0 0;
+}
+
+.all-details {
+    margin-bottom: 15px;
+}
+
+.details-wrapper {
+    margin: 20px 20px;
+}
+
+.scrollbar {
+    border: 1px solid #212121;
+    overflow-y: scroll;
+    height: 470px;
+}
+
+.scrollbar-items {
+    margin: 10px 10px;
+}
+
+.scrollbar::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 2px;
+	background-color: #0c5770;
+}
+
+.scrollbar::-webkit-scrollbar
+{
+	width: 18px;
+	background-color: #0c5770;
+}
+
+.scrollbar::-webkit-scrollbar-thumb
+{
+    background: linear-gradient(to bottom, #1589af 41%, #0c5770 42%, #1589af 44%, #0c5770 46%, #1589af 48%, #0c5770 50%, #1589af 52%, #0c5770 54%, #1589af 56%);
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 0 4px rgba(0,0,0,.4);
+	background-color: #1589af;
+}
